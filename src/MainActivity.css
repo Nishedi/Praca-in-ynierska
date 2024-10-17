@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item {
+    margin: 10px 0px;
+}
+
+
+
+
+
+.autocomplete-container {
+    position: relative;
+  }
+  
+  .autocomplete-container input {
+    width: calc(100% - 43px);
+    outline: none;
+    
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    padding-right: 31px;
+    font-size: 16px;
+  }
