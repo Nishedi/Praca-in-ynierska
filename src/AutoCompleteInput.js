@@ -100,7 +100,7 @@ const AutoCompleteInput = ({ exercise, setSelectedExercises, remove}) => {
                                     setSelectedExercises((prevExercises) =>
                                         prevExercises.map((item) =>(
                                             item.id === exercise.id
-                                                ? { ...item, location: suggestion.properties.formatted}
+                                                ? { ...item, location: suggestion.properties.formatted, others: suggestion.properties }
                                                 : item 
                                         ))
                                     );
