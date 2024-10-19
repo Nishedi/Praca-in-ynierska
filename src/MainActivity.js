@@ -123,8 +123,8 @@ function MainActivity() {
     const [sugerowanaTrasa, setSugerowanaTrasa] = useState([]);
     const [listOfLocations, setListOfLocations] = useState([
         {
-            "id": "2024-10-18T16:50:15.910Z",
-            "location": "Mosiężna, 53-441 Wrocław, Poland",
+            "id": "2024-10-19T15:06:16.679Z",
+            "location": "Avenida Poznań, Stanisława Matyi 2, 61-586 Poznan, Poland",
             "others": {
                 "datasource": {
                     "sourcename": "openstreetmap",
@@ -132,21 +132,24 @@ function MainActivity() {
                     "license": "Open Database License",
                     "url": "https://www.openstreetmap.org/copyright"
                 },
-                "name": "Mosiężna",
+                "name": "Avenida Poznań",
+                "old_name": "Poznań City Center",
                 "country": "Poland",
                 "country_code": "pl",
-                "state": "Lower Silesian Voivodeship",
-                "city": "Wrocław",
-                "postcode": "53-441",
-                "suburb": "Gajowice",
-                "street": "Mosiężna",
-                "lon": 16.9996243,
-                "lat": 51.1003307,
-                "district": "Gajowice",
-                "result_type": "street",
-                "formatted": "Mosiężna, 53-441 Wrocław, Poland",
-                "address_line1": "Mosiężna",
-                "address_line2": "53-441 Wrocław, Poland",
+                "state": "Greater Poland Voivodeship",
+                "city": "Poznan",
+                "postcode": "61-586",
+                "district": "Wierzbięcice",
+                "suburb": "Wilda",
+                "street": "Stanisława Matyi",
+                "housenumber": "2",
+                "lon": 16.91344156323907,
+                "lat": 52.40071895,
+                "result_type": "amenity",
+                "formatted": "Avenida Poznań, Stanisława Matyi 2, 61-586 Poznan, Poland",
+                "address_line1": "Avenida Poznań",
+                "address_line2": "Stanisława Matyi 2, 61-586 Poznan, Poland",
+                "category": "commercial.shopping_mall",
                 "timezone": {
                     "name": "Europe/Warsaw",
                     "offset_STD": "+01:00",
@@ -156,19 +159,152 @@ function MainActivity() {
                     "abbreviation_STD": "CET",
                     "abbreviation_DST": "CEST"
                 },
-                "plus_code": "9F3R4X2X+4R",
-                "plus_code_short": "4X2X+4R Wrocław, Lower Silesian Voivodeship, Poland",
+                "plus_code": "9F4RCW27+79",
+                "rank": {
+                    "importance": 0.19324803174625985,
+                    "confidence": 0,
+                    "match_type": "full_match"
+                },
+                "place_id": "513eeb684ed7e9304059989130c24a334a40f00102f901fe4ffb1500000000c0020192030f4176656e69646120506f7a6e61c584"
+            }
+        },
+        {
+            "id": "2024-10-19T15:06:28.712Z",
+            "location": "Wrocławska 41, 81-552 Gdynia, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Wrocławska 41",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Pomeranian Voivodeship",
+                "city": "Gdynia",
+                "suburb": "Orłowo",
+                "lon": 18.536440421999213,
+                "lat": 54.4838659,
+                "district": "Orłowo",
+                "result_type": "amenity",
+                "postcode": "81-552",
+                "formatted": "Wrocławska 41, 81-552 Gdynia, Poland",
+                "address_line1": "Wrocławska 41",
+                "address_line2": "81-552 Gdynia, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9F6WFGMP+GH",
+                "plus_code_short": "FGMP+GH Gdynia, Pomeranian Voivodeship, Poland",
+                "rank": {
+                    "importance": 0.10667666666666664,
+                    "confidence": 0.6666666666666666,
+                    "match_type": "full_match"
+                },
+                "place_id": "5133bdd428548932405926135c51ef3d4b40f00102f90180ce2f4700000000c0020192030e57726f63c5826177736b61203431"
+            }
+        },
+        {
+            "id": "2024-10-19T15:06:39.669Z",
+            "location": "Centrostal-Wrocław SA Oddział w Płocku, Kobiałka 7B, 09-411 Płock, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Centrostal-Wrocław SA Oddział w Płocku",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Masovian Voivodeship",
+                "city": "Płock",
+                "postcode": "09-411",
+                "district": "Osiedle Młodych",
+                "suburb": "Winiary",
+                "street": "Kobiałka",
+                "housenumber": "7B",
+                "lon": 19.665253525962605,
+                "lat": 52.567319499999996,
+                "result_type": "amenity",
+                "formatted": "Centrostal-Wrocław SA Oddział w Płocku, Kobiałka 7B, 09-411 Płock, Poland",
+                "address_line1": "Centrostal-Wrocław SA Oddział w Płocku",
+                "address_line2": "Kobiałka 7B, 09-411 Płock, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9F4XHM88+W4",
+                "plus_code_short": "HM88+W4 Płock, Masovian Voivodeship, Poland",
+                "rank": {
+                    "importance": 0.21000999999999997,
+                    "confidence": 1,
+                    "confidence_city_level": 1,
+                    "match_type": "inner_part"
+                },
+                "place_id": "51de8e190e4eaa3340590871e5ec9d484a40f00102f9014c1af02e00000000c0020192032943656e74726f7374616c2d57726f63c5826177205341204f64647a6961c58220772050c5826f636b75"
+            }
+        },
+        {
+            "id": "2024-10-19T15:06:50.464Z",
+            "location": "Wrocławska, 71-034 Szczecin, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Wrocławska",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "West Pomeranian Voivodeship",
+                "city": "Szczecin",
+                "postcode": "71-034",
+                "district": "Zachód",
+                "neighbourhood": "Słowieńsko",
+                "suburb": "Gumieńce",
+                "street": "Wrocławska",
+                "lon": 14.4916328,
+                "lat": 53.4170392,
+                "result_type": "street",
+                "formatted": "Wrocławska, 71-034 Szczecin, Poland",
+                "address_line1": "Wrocławska",
+                "address_line2": "71-034 Szczecin, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9F5PCF8R+RM",
+                "plus_code_short": "CF8R+RM Szczecin, West Pomeranian Voivodeship, Poland",
                 "rank": {
                     "importance": 0.0533433333333333,
                     "confidence": 0,
                     "match_type": "full_match"
                 },
-                "place_id": "5172c9cc60e7ff30405974a4e9a2d78c4940f00102f9010ad4590100000000c0020492030a4d6f7369c499c5bc6e61"
+                "place_id": "5125485b4bb7fb2c405933935e8a61b54a40f00102f90167f5e91e00000000c0020492030b57726f63c5826177736b61"
             }
         },
         {
-            "id": "2024-10-18T16:50:23.017Z",
-            "location": "Wrocław University of Science and Technology, Zygmunta Janiszewskiego, 50-373 Wrocław, Poland",
+            "id": "2024-10-19T15:07:00.037Z",
+            "location": "Zielona Góra, Wrocławska, 65-427 Zielona Góra, Poland",
             "others": {
                 "datasource": {
                     "sourcename": "openstreetmap",
@@ -176,22 +312,21 @@ function MainActivity() {
                     "license": "Open Database License",
                     "url": "https://www.openstreetmap.org/copyright"
                 },
-                "name": "Wrocław University of Science and Technology",
+                "name": "Zielona Góra",
                 "country": "Poland",
                 "country_code": "pl",
-                "state": "Lower Silesian Voivodeship",
-                "city": "Wrocław",
-                "postcode": "50-373",
-                "district": "Manhattan",
-                "suburb": "Plac Grunwaldzki",
-                "street": "Zygmunta Janiszewskiego",
-                "lon": 17.06104549756193,
-                "lat": 51.1095434,
+                "state": "Lubusz Voivodeship",
+                "city": "Zielona Góra",
+                "postcode": "65-427",
+                "district": "Osiedle Tysiąclecia",
+                "street": "Wrocławska",
+                "lon": 15.5131728,
+                "lat": 51.9377399,
                 "result_type": "amenity",
-                "formatted": "Wrocław University of Science and Technology, Zygmunta Janiszewskiego, 50-373 Wrocław, Poland",
-                "address_line1": "Wrocław University of Science and Technology",
-                "address_line2": "Zygmunta Janiszewskiego, 50-373 Wrocław, Poland",
-                "category": "education.university",
+                "formatted": "Zielona Góra, Wrocławska, 65-427 Zielona Góra, Poland",
+                "address_line1": "Zielona Góra",
+                "address_line2": "Wrocławska, 65-427 Zielona Góra, Poland",
+                "category": "tourism.attraction.artwork",
                 "timezone": {
                     "name": "Europe/Warsaw",
                     "offset_STD": "+01:00",
@@ -201,19 +336,64 @@ function MainActivity() {
                     "abbreviation_STD": "CET",
                     "abbreviation_DST": "CEST"
                 },
-                "plus_code": "9F3V4356+RC",
-                "plus_code_short": "4356+RC Wrocław, Lower Silesian Voivodeship, Poland",
+                "plus_code": "9F3QWGQ7+37",
+                "plus_code_short": "Q7+37 Zielona Góra, Lubusz Voivodeship, Poland",
                 "rank": {
-                    "importance": 0.45255309950086675,
+                    "importance": 0.00000999999999995449,
+                    "confidence": 0.5,
+                    "match_type": "full_match"
+                },
+                "place_id": "51bc64d295be062f4059c0536ddc07f84940f00103f9011b8eb18a02000000c0020192030d5a69656c6f6e612047c3b37261"
+            }
+        },
+        {
+            "id": "2024-10-19T15:07:08.360Z",
+            "location": "Wrocławska, 01-466 Warsaw, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Wrocławska",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Masovian Voivodeship",
+                "city": "Warsaw",
+                "postcode": "01-466",
+                "district": "Bemowo II",
+                "suburb": "Bemowo",
+                "quarter": "Bemowo-Lotnisko",
+                "street": "Wrocławska",
+                "lon": 20.921425,
+                "lat": 52.2494093,
+                "result_type": "street",
+                "formatted": "Wrocławska, 01-466 Warsaw, Poland",
+                "address_line1": "Wrocławska",
+                "address_line2": "01-466 Warsaw, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9G426WXC+QH",
+                "plus_code_short": "6WXC+QH Warsaw, Masovian Voivodeship, Poland",
+                "rank": {
+                    "importance": 0.0533433333333333,
                     "confidence": 0,
                     "match_type": "full_match"
                 },
-                "place_id": "51b7987fada00f3140590f3fa484058e4940f00102f901deb6864100000000c0020192032d57726f63c582617720556e6976657273697479206f6620536369656e636520616e6420546563686e6f6c6f6779"
+                "place_id": "5180b74082e2eb344059bd68d9a4ec1f4a40f00102f9010f36020900000000c0020492030b57726f63c5826177736b61"
             }
         },
         {
-            "id": "2024-10-18T16:53:20.623Z",
-            "location": "Dworzec Wrocław Nadodrze, plac Stanisława Staszica 50, 50-222 Wrocław, Poland",
+            "id": "2024-10-19T15:07:28.217Z",
+            "location": "Muzeum Podlaskie w Białymstoku - Ratusz, 10, 15-091 Białystok, Poland",
             "others": {
                 "datasource": {
                     "sourcename": "openstreetmap",
@@ -221,23 +401,22 @@ function MainActivity() {
                     "license": "Open Database License",
                     "url": "https://www.openstreetmap.org/copyright"
                 },
-                "name": "Dworzec Wrocław Nadodrze",
+                "name": "Muzeum Podlaskie w Białymstoku - Ratusz",
                 "country": "Poland",
                 "country_code": "pl",
-                "state": "Lower Silesian Voivodeship",
-                "city": "Wrocław",
-                "postcode": "50-222",
-                "suburb": "Nadodrze",
-                "street": "plac Stanisława Staszica",
-                "housenumber": "50",
-                "lon": 17.032534215396993,
-                "lat": 51.125477849999996,
-                "district": "Nadodrze",
+                "state": "Podlaskie Voivodeship",
+                "city": "Białystok",
+                "postcode": "15-091",
+                "district": "Osiedle Waryńskiego",
+                "suburb": "Centrum",
+                "housenumber": "10",
+                "lon": 23.1587714,
+                "lat": 53.1323898,
                 "result_type": "amenity",
-                "formatted": "Dworzec Wrocław Nadodrze, plac Stanisława Staszica 50, 50-222 Wrocław, Poland",
-                "address_line1": "Dworzec Wrocław Nadodrze",
-                "address_line2": "plac Stanisława Staszica 50, 50-222 Wrocław, Poland",
-                "category": "building.transportation",
+                "formatted": "Muzeum Podlaskie w Białymstoku - Ratusz, 10, 15-091 Białystok, Poland",
+                "address_line1": "Muzeum Podlaskie w Białymstoku - Ratusz",
+                "address_line2": "10, 15-091 Białystok, Poland",
+                "category": "entertainment.museum",
                 "timezone": {
                     "name": "Europe/Warsaw",
                     "offset_STD": "+01:00",
@@ -247,22 +426,158 @@ function MainActivity() {
                     "abbreviation_STD": "CET",
                     "abbreviation_DST": "CEST"
                 },
-                "plus_code": "9F3V42GM+52",
-                "plus_code_short": "42GM+52 Wrocław, Lower Silesian Voivodeship, Poland",
+                "plus_code": "9G5545J5+XG",
+                "plus_code_short": "J5+XG Białystok, Podlaskie Voivodeship, Poland",
                 "rank": {
-                    "importance": 0.27381125651268035,
-                    "confidence": 1,
+                    "importance": 0.23859140675544002,
+                    "confidence": 0,
                     "match_type": "full_match"
                 },
-                "place_id": "5190218f295408314059aa0f7fa80f904940f00102f901337f0c0600000000c0020192031944776f727a65632057726f63c5826177204e61646f64727a65"
+                "place_id": "51468a123ea52837405978a92226f2904a40f00103f90139742c3200000000c002019203284d757a65756d20506f646c61736b6965207720426961c582796d73746f6b75202d2052617475737a"
             }
         },
         {
-            "id": "2024-10-18T16:53:32.315Z",
-            "location": "Borek, Wrocław, Lower Silesian Voivodeship, Poland",
+            "id": "2024-10-19T15:07:40.812Z",
+            "location": "Wrocławska, 31-307 Krakow, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Wrocławska",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Lesser Poland Voivodeship",
+                "city": "Krakow",
+                "postcode": "31-307",
+                "district": "Krowodrza",
+                "suburb": "Krowodrza",
+                "quarter": "Łobzów",
+                "street": "Wrocławska",
+                "lon": 19.915423,
+                "lat": 50.0822108,
+                "result_type": "street",
+                "formatted": "Wrocławska, 31-307 Krakow, Poland",
+                "address_line1": "Wrocławska",
+                "address_line2": "31-307 Krakow, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9F2X3WJ8+V5",
+                "rank": {
+                    "importance": 0.0533433333333333,
+                    "confidence": 0,
+                    "match_type": "full_match"
+                },
+                "place_id": "519701672959ea33405962b02ce2850a4940f00102f901c4252e0100000000c0020492030b57726f63c5826177736b61"
+            }
+        },
+        {
+            "id": "2024-10-19T15:07:48.568Z",
+            "location": "Wrocławska, 26-603 Radom, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Wrocławska",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Masovian Voivodeship",
+                "city": "Radom",
+                "postcode": "26-603",
+                "suburb": "Dzierzków",
+                "street": "Wrocławska",
+                "lon": 21.1898445,
+                "lat": 51.4011654,
+                "result_type": "street",
+                "formatted": "Wrocławska, 26-603 Radom, Poland",
+                "address_line1": "Wrocławska",
+                "address_line2": "26-603 Radom, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9G33C52Q+FW",
+                "plus_code_short": "C52Q+FW Radom, Masovian Voivodeship, Poland",
+                "rank": {
+                    "importance": 0.1533433333333333,
+                    "confidence": 0.5,
+                    "confidence_city_level": 1,
+                    "confidence_street_level": 1,
+                    "match_type": "match_by_street"
+                },
+                "place_id": "5152d32ea69930354059b4a4486359b34940f00102f9011828b50a00000000c0020492030b57726f63c5826177736b61"
+            }
+        },
+        {
+            "id": "2024-10-19T15:07:58.365Z",
+            "location": "Wrocławska, 40-219 Katowice, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Wrocławska",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Silesian Voivodeship",
+                "county": "Metropolis GZM",
+                "city": "Katowice",
+                "postcode": "40-219",
+                "district": "Osiedle Jerzego Kukuczki",
+                "suburb": "Bogucice",
+                "street": "Wrocławska",
+                "lon": 19.0492897,
+                "lat": 50.2665035,
+                "result_type": "street",
+                "formatted": "Wrocławska, 40-219 Katowice, Poland",
+                "address_line1": "Wrocławska",
+                "address_line2": "40-219 Katowice, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9F2X728X+JP",
+                "plus_code_short": "728X+JP Katowice, Metropolis GZM, Poland",
+                "rank": {
+                    "importance": 0.0533433333333333,
+                    "confidence": 0,
+                    "match_type": "full_match"
+                },
+                "place_id": "519787f13f9e0c334059806264c91c224940f00102f9017d366c1100000000c0020492030b57726f63c5826177736b61"
+            }
+        },
+        {
+            "id": "2024-10-19T15:08:01.502Z",
+            "location": "Poznańska, 53-630 Wrocław, Poland",
             "others": {
                 "country": "Poland",
                 "city": "Wrocław",
+                "postcode": "53-630",
+                "district": "Szczepin",
                 "state": "Lower Silesian Voivodeship",
                 "datasource": {
                     "sourcename": "openstreetmap",
@@ -271,13 +586,58 @@ function MainActivity() {
                     "url": "https://www.openstreetmap.org/copyright"
                 },
                 "country_code": "pl",
-                "suburb": "Borek",
-                "lon": 17.0106071,
-                "lat": 51.081853,
+                "street": "Poznańska",
+                "lon": 17.0076417,
+                "lat": 51.1181114,
+                "result_type": "street",
+                "name": "Poznańska",
+                "suburb": "Szczepin",
+                "formatted": "Poznańska, 53-630 Wrocław, Poland",
+                "address_line1": "Poznańska",
+                "address_line2": "53-630 Wrocław, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9F3V4295+63",
+                "plus_code_short": "4295+63 Wrocław, Lower Silesian Voivodeship, Poland",
+                "rank": {
+                    "importance": 0.2733433333333333,
+                    "confidence": 0,
+                    "match_type": "full_match"
+                },
+                "place_id": "51fa9573cef40131405973243c461e8f4940f00102f901c5fe740100000000c0020492030a506f7a6e61c584736b61"
+            }
+        },
+        {
+            "id": "2024-10-19T15:08:12.635Z",
+            "location": "Krasińskiego, Przemyśl, Subcarpathian Voivodeship, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Krasińskiego",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Subcarpathian Voivodeship",
+                "city": "Przemyśl",
+                "postcode": "37-700",
+                "district": "Osiedle Zygmunta Krasińskiego",
+                "suburb": "Krasińskiego",
+                "lon": 22.7720839,
+                "lat": 49.7892064,
                 "result_type": "suburb",
-                "formatted": "Borek, Wrocław, Lower Silesian Voivodeship, Poland",
-                "address_line1": "Borek",
-                "address_line2": "Wrocław, Lower Silesian Voivodeship, Poland",
+                "formatted": "Krasińskiego, Przemyśl, Subcarpathian Voivodeship, Poland",
+                "address_line1": "Krasińskiego",
+                "address_line2": "Przemyśl, Subcarpathian Voivodeship, Poland",
                 "category": "populated_place",
                 "timezone": {
                     "name": "Europe/Warsaw",
@@ -288,19 +648,19 @@ function MainActivity() {
                     "abbreviation_STD": "CET",
                     "abbreviation_DST": "CEST"
                 },
-                "plus_code": "9F3V32J6+P6",
-                "plus_code_short": "32J6+P6 Wrocław, Lower Silesian Voivodeship, Poland",
+                "plus_code": "8GX4QQQC+MR",
+                "plus_code_short": "QC+MR Przemyśl, Subcarpathian Voivodeship, Poland",
                 "rank": {
-                    "importance": 0.5358021943488056,
+                    "importance": 0.14667666666666662,
                     "confidence": 0,
                     "match_type": "full_match"
                 },
-                "place_id": "51fc9a9b25b7023140592d0abb287a8a4940f00101f901476e230000000000c00205"
+                "place_id": "51a4445c4aa7c53640599ee51eb704e54840f00103f901eee3f51d02000000c0020592030d4b72617369c584736b6965676f"
             }
         },
         {
-            "id": "2024-10-19T12:56:22.490Z",
-            "location": "Tarnogaj, Wrocław, Lower Silesian Voivodeship, Poland",
+            "id": "2024-10-19T15:11:57.158Z",
+            "location": "Wrocławska, 16-402 Suwałki, Poland",
             "others": {
                 "datasource": {
                     "sourcename": "openstreetmap",
@@ -308,108 +668,19 @@ function MainActivity() {
                     "license": "Open Database License",
                     "url": "https://www.openstreetmap.org/copyright"
                 },
+                "name": "Wrocławska",
                 "country": "Poland",
                 "country_code": "pl",
-                "state": "Lower Silesian Voivodeship",
-                "city": "Wrocław",
-                "suburb": "Tarnogaj",
-                "lon": 17.062339,
-                "lat": 51.080161,
-                "result_type": "suburb",
-                "formatted": "Tarnogaj, Wrocław, Lower Silesian Voivodeship, Poland",
-                "address_line1": "Tarnogaj",
-                "address_line2": "Wrocław, Lower Silesian Voivodeship, Poland",
-                "category": "administrative",
-                "timezone": {
-                    "name": "Europe/Warsaw",
-                    "offset_STD": "+01:00",
-                    "offset_STD_seconds": 3600,
-                    "offset_DST": "+02:00",
-                    "offset_DST_seconds": 7200,
-                    "abbreviation_STD": "CET",
-                    "abbreviation_DST": "CEST"
-                },
-                "plus_code": "9F3V33J6+3W",
-                "plus_code_short": "33J6+3W Wrocław, Lower Silesian Voivodeship, Poland",
-                "rank": {
-                    "importance": 0.3139400466797944,
-                    "confidence": 0,
-                    "match_type": "full_match"
-                },
-                "place_id": "51ee43de72f50f31405913b534b7428a4940f00101f9013ba7230000000000c00205"
-            }
-        },
-        {
-            "id": "2024-10-19T12:56:31.701Z",
-            "location": "Komisariat Policji Wrocław Ołbin, Ludwika Rydygiera 46-48, 50-249 Wrocław, Poland",
-            "others": {
-                "datasource": {
-                    "sourcename": "openstreetmap",
-                    "attribution": "© OpenStreetMap contributors",
-                    "license": "Open Database License",
-                    "url": "https://www.openstreetmap.org/copyright"
-                },
-                "name": "Komisariat Policji Wrocław Ołbin",
-                "country": "Poland",
-                "country_code": "pl",
-                "state": "Lower Silesian Voivodeship",
-                "city": "Wrocław",
-                "postcode": "50-249",
-                "suburb": "Nadodrze",
-                "street": "Ludwika Rydygiera",
-                "housenumber": "46-48",
-                "lon": 17.0321,
-                "lat": 51.1209626,
-                "district": "Nadodrze",
-                "result_type": "amenity",
-                "formatted": "Komisariat Policji Wrocław Ołbin, Ludwika Rydygiera 46-48, 50-249 Wrocław, Poland",
-                "address_line1": "Komisariat Policji Wrocław Ołbin",
-                "address_line2": "Ludwika Rydygiera 46-48, 50-249 Wrocław, Poland",
-                "category": "service.police",
-                "timezone": {
-                    "name": "Europe/Warsaw",
-                    "offset_STD": "+01:00",
-                    "offset_STD_seconds": 3600,
-                    "offset_DST": "+02:00",
-                    "offset_DST_seconds": 7200,
-                    "abbreviation_STD": "CET",
-                    "abbreviation_DST": "CEST"
-                },
-                "plus_code": "9F3V42CJ+9R",
-                "plus_code_short": "42CJ+9R Wrocław, Lower Silesian Voivodeship, Poland",
-                "rank": {
-                    "importance": 0.00000999999999995449,
-                    "confidence": 1,
-                    "match_type": "full_match"
-                },
-                "place_id": "519c33a2b437083140590285d5b37b8f4940f00103f901de6c43b500000000c002019203224b6f6d6973617269617420506f6c69636a692057726f63c5826177204fc58262696e"
-            }
-        },
-        {
-            "id": "2024-10-19T12:56:42.519Z",
-            "location": "Rynek, 50-102 Wrocław, Poland",
-            "others": {
-                "datasource": {
-                    "sourcename": "openstreetmap",
-                    "attribution": "© OpenStreetMap contributors",
-                    "license": "Open Database License",
-                    "url": "https://www.openstreetmap.org/copyright"
-                },
-                "name": "Rynek",
-                "country": "Poland",
-                "country_code": "pl",
-                "state": "Lower Silesian Voivodeship",
-                "city": "Wrocław",
-                "postcode": "50-102",
-                "suburb": "Stare Miasto",
-                "quarter": "Four Denominations District",
-                "street": "Rynek",
-                "lon": 17.0331259,
-                "lat": 51.1097028,
+                "state": "Podlaskie Voivodeship",
+                "city": "Suwałki",
+                "postcode": "16-402",
+                "street": "Wrocławska",
+                "lon": 22.9199991,
+                "lat": 54.0771662,
                 "result_type": "street",
-                "formatted": "Rynek, 50-102 Wrocław, Poland",
-                "address_line1": "Rynek",
-                "address_line2": "50-102 Wrocław, Poland",
+                "formatted": "Wrocławska, 16-402 Suwałki, Poland",
+                "address_line1": "Wrocławska",
+                "address_line2": "16-402 Suwałki, Poland",
                 "timezone": {
                     "name": "Europe/Warsaw",
                     "offset_STD": "+01:00",
@@ -419,127 +690,41 @@ function MainActivity() {
                     "abbreviation_STD": "CET",
                     "abbreviation_DST": "CEST"
                 },
-                "plus_code": "9F3V425M+V7",
-                "plus_code_short": "5M+V7 Wrocław, Lower Silesian Voivodeship, Poland",
-                "rank": {
-                    "importance": 0.2733433333333333,
-                    "confidence": 0,
-                    "match_type": "full_match"
-                },
-                "place_id": "518c2661f07a08314059cb23c9bd0a8e4940f00102f901bd7fc00e00000000c0020492030552796e656b"
-            }
-        },
-        {
-            "id": "2024-10-19T12:56:47.280Z",
-            "location": "Wrocław Szczepin, Portowa, 53-657 Wrocław, Poland",
-            "others": {
-                "datasource": {
-                    "sourcename": "openstreetmap",
-                    "attribution": "© OpenStreetMap contributors",
-                    "license": "Open Database License",
-                    "url": "https://www.openstreetmap.org/copyright"
-                },
-                "name": "Wrocław Szczepin",
-                "country": "Poland",
-                "country_code": "pl",
-                "state": "Lower Silesian Voivodeship",
-                "city": "Wrocław",
-                "postcode": "53-657",
-                "suburb": "Szczepin",
-                "street": "Portowa",
-                "lon": 17.0142448,
-                "lat": 51.1229254,
-                "district": "Szczepin",
-                "result_type": "amenity",
-                "formatted": "Wrocław Szczepin, Portowa, 53-657 Wrocław, Poland",
-                "address_line1": "Wrocław Szczepin",
-                "address_line2": "Portowa, 53-657 Wrocław, Poland",
-                "timezone": {
-                    "name": "Europe/Warsaw",
-                    "offset_STD": "+01:00",
-                    "offset_STD_seconds": 3600,
-                    "offset_DST": "+02:00",
-                    "offset_DST_seconds": 7200,
-                    "abbreviation_STD": "CET",
-                    "abbreviation_DST": "CEST"
-                },
-                "plus_code": "9F3V42F7+5M",
-                "plus_code_short": "42F7+5M Wrocław, Lower Silesian Voivodeship, Poland",
-                "rank": {
-                    "importance": 0.00000999999999995449,
-                    "confidence": 1,
-                    "match_type": "full_match"
-                },
-                "place_id": "515823168ca503314059826cfe04bc8f4940f00103f90152e7db2602000000c0020192031157726f63c582617720537a637a6570696e"
-            }
-        },
-        {
-            "id": "2024-10-19T12:56:52.325Z",
-            "location": "Józefa Chełmońskiego, 51-731 Wrocław, Poland",
-            "others": {
-                "datasource": {
-                    "sourcename": "openstreetmap",
-                    "attribution": "© OpenStreetMap contributors",
-                    "license": "Open Database License",
-                    "url": "https://www.openstreetmap.org/copyright"
-                },
-                "name": "Józefa Chełmońskiego",
-                "country": "Poland",
-                "country_code": "pl",
-                "state": "Lower Silesian Voivodeship",
-                "city": "Wrocław",
-                "postcode": "51-731",
-                "district": "Biskupin-Sępolno-Dąbie-Bartoszowice",
-                "suburb": "Biskupin",
-                "street": "Józefa Chełmońskiego",
-                "lon": 17.0959362,
-                "lat": 51.0993434,
-                "result_type": "street",
-                "formatted": "Józefa Chełmońskiego, 51-731 Wrocław, Poland",
-                "address_line1": "Józefa Chełmońskiego",
-                "address_line2": "51-731 Wrocław, Poland",
-                "timezone": {
-                    "name": "Europe/Warsaw",
-                    "offset_STD": "+01:00",
-                    "offset_STD_seconds": 3600,
-                    "offset_DST": "+02:00",
-                    "offset_DST_seconds": 7200,
-                    "abbreviation_STD": "CET",
-                    "abbreviation_DST": "CEST"
-                },
-                "plus_code": "9F3V33XW+P9",
-                "plus_code_short": "33XW+P9 Wrocław, Lower Silesian Voivodeship, Poland",
+                "plus_code": "9G643WG9+VX",
+                "plus_code_short": "3WG9+VX Suwałki, Podlaskie Voivodeship, Poland",
                 "rank": {
                     "importance": 0.0533433333333333,
                     "confidence": 0,
                     "match_type": "full_match"
                 },
-                "place_id": "51a58059468f183140596709d748b78c4940f00102f9015888d30900000000c002049203174ac3b37a65666120436865c5826d6fc584736b6965676f"
+                "place_id": "5174d99e0f85eb364059a5ad0095e0094b40f00102f901a7355e0a00000000c0020492030b57726f63c5826177736b61"
             }
         },
         {
-            "id": "2024-10-19T12:57:30.247Z",
-            "location": "Wrocław Kowale, Wrocław, dolnoslaskie, Poland",
+            "id": "2024-10-19T15:12:15.096Z",
+            "location": "Gdańska, 75-438 Koszalin, Poland",
             "others": {
-                "country_code": "pl",
-                "name": "Wrocław Kowale",
-                "country": "Poland",
-                "county": "Wrocław",
                 "datasource": {
                     "sourcename": "openstreetmap",
                     "attribution": "© OpenStreetMap contributors",
                     "license": "Open Database License",
                     "url": "https://www.openstreetmap.org/copyright"
                 },
-                "state": "dolnoslaskie",
-                "district": "Wrocław",
-                "city": "Wrocław",
-                "lon": 17.10017,
-                "lat": 51.134977,
-                "result_type": "suburb",
-                "formatted": "Wrocław Kowale, Wrocław, dolnoslaskie, Poland",
-                "address_line1": "Wrocław Kowale",
-                "address_line2": "Wrocław, dolnoslaskie, Poland",
+                "name": "Gdańska",
+                "ref": "112",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "West Pomeranian Voivodeship",
+                "city": "Koszalin",
+                "postcode": "75-438",
+                "district": "Koszalin",
+                "street": "Gdańska",
+                "lon": 16.2453236,
+                "lat": 54.2235076,
+                "result_type": "street",
+                "formatted": "Gdańska, 75-438 Koszalin, Poland",
+                "address_line1": "Gdańska",
+                "address_line2": "75-438 Koszalin, Poland",
                 "timezone": {
                     "name": "Europe/Warsaw",
                     "offset_STD": "+01:00",
@@ -549,39 +734,41 @@ function MainActivity() {
                     "abbreviation_STD": "CET",
                     "abbreviation_DST": "CEST"
                 },
-                "plus_code": "9F3V44M2+X3",
-                "plus_code_short": "44M2+X3 Wrocław, Poland",
+                "plus_code": "9F6R66FW+C4",
+                "plus_code_short": "66FW+C4 Koszalin, West Pomeranian Voivodeship, Poland",
                 "rank": {
-                    "confidence": 1,
-                    "confidence_city_level": 1,
+                    "importance": 0.0533433333333333,
+                    "confidence": 0,
                     "match_type": "full_match"
                 },
-                "place_id": "51520ababda419314059295b24ed46914940f00103f90128f4a37201000000c0020592030f57726f63c5826177204b6f77616c65e203236f70656e7374726565746d61703a76656e75653a6e6f64652f36323138333134373932"
+                "place_id": "51deef0687cd3e3040592734a4e59b1c4b40f00102f90105f9453500000000c00204920308476461c584736b61"
             }
         },
         {
-            "id": "2024-10-19T12:57:36.231Z",
-            "location": "Wrocław Psie Pole, Wrocław, dolnoslaskie, Poland",
+            "id": "2024-10-19T15:13:55.052Z",
+            "location": "Wrocławska, 63-460 Kalisz, Poland",
             "others": {
-                "country_code": "pl",
-                "name": "Wrocław Psie Pole",
-                "country": "Poland",
-                "county": "Wrocław",
                 "datasource": {
                     "sourcename": "openstreetmap",
                     "attribution": "© OpenStreetMap contributors",
                     "license": "Open Database License",
                     "url": "https://www.openstreetmap.org/copyright"
                 },
-                "state": "dolnoslaskie",
-                "district": "Wrocław",
-                "city": "Wrocław",
-                "lon": 17.118545,
-                "lat": 51.150452,
-                "result_type": "suburb",
-                "formatted": "Wrocław Psie Pole, Wrocław, dolnoslaskie, Poland",
-                "address_line1": "Wrocław Psie Pole",
-                "address_line2": "Wrocław, dolnoslaskie, Poland",
+                "name": "Wrocławska",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Greater Poland Voivodeship",
+                "city": "Kalisz",
+                "suburb": "Szczypiorno",
+                "street": "Wrocławska",
+                "lon": 18.0280612,
+                "lat": 51.7279325,
+                "district": "Szczypiorno",
+                "result_type": "street",
+                "postcode": "63-460",
+                "formatted": "Wrocławska, 63-460 Kalisz, Poland",
+                "address_line1": "Wrocławska",
+                "address_line2": "63-460 Kalisz, Poland",
                 "timezone": {
                     "name": "Europe/Warsaw",
                     "offset_STD": "+01:00",
@@ -591,14 +778,59 @@ function MainActivity() {
                     "abbreviation_STD": "CET",
                     "abbreviation_DST": "CEST"
                 },
-                "plus_code": "9F3V5429+5C",
-                "plus_code_short": "5429+5C Wrocław, Poland",
+                "plus_code": "9F3WP2HH+56",
+                "plus_code_short": "P2HH+56 Kalisz, Greater Poland Voivodeship, Poland",
                 "rank": {
-                    "confidence": 0.9,
-                    "confidence_city_level": 0.9,
+                    "importance": 0.0533433333333333,
+                    "confidence": 0,
                     "match_type": "full_match"
                 },
-                "place_id": "51b51a12f7581e31405914cfd90242934940f00103f9011980845300000000c0020592031257726f63c5826177205073696520506f6c65e203236f70656e7374726565746d61703a76656e75653a6e6f64652f31343031313932343733"
+                "place_id": "515949d0042f07324059079964e42cdd4940f00102f901f4d1341400000000c0020492030b57726f63c5826177736b61"
+            }
+        },
+        {
+            "id": "2024-10-19T15:13:57.224Z",
+            "location": "Sieradzka, 50-532 Wrocław, Poland",
+            "others": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "Sieradzka",
+                "country": "Poland",
+                "country_code": "pl",
+                "state": "Lower Silesian Voivodeship",
+                "city": "Wrocław",
+                "postcode": "50-532",
+                "suburb": "Huby",
+                "quarter": "Glinianki",
+                "street": "Sieradzka",
+                "lon": 17.0334773,
+                "lat": 51.092815,
+                "district": "Huby",
+                "result_type": "street",
+                "formatted": "Sieradzka, 50-532 Wrocław, Poland",
+                "address_line1": "Sieradzka",
+                "address_line2": "50-532 Wrocław, Poland",
+                "timezone": {
+                    "name": "Europe/Warsaw",
+                    "offset_STD": "+01:00",
+                    "offset_STD_seconds": 3600,
+                    "offset_DST": "+02:00",
+                    "offset_DST_seconds": 7200,
+                    "abbreviation_STD": "CET",
+                    "abbreviation_DST": "CEST"
+                },
+                "plus_code": "9F3V32VM+49",
+                "plus_code_short": "VM+49 Wrocław, Lower Silesian Voivodeship, Poland",
+                "rank": {
+                    "importance": 0.0533433333333333,
+                    "confidence": 0,
+                    "match_type": "full_match"
+                },
+                "place_id": "518ca8e4f7910831405904caa65ce18b4940f00102f9017046101e00000000c002049203095369657261647a6b61"
             }
         }
     ]);
@@ -699,7 +931,7 @@ function MainActivity() {
         <>
         {/* <h1 style={{display: 'flex', alignItems: 'center', color: 'white'}}>Kocham Amelkę 😊❤️</h1> */}
         <div className='flex-container'>
-        <div className={`grid-container ${listOfLocations.length > 8 ? 'two-columns' : 'one-column'}`}>
+        <div className={`grid-container ${listOfLocations.length > 8 ? listOfLocations.length > 16 ? 'three-columns' :'two-columns' : 'one-column'}`}>
             {/* <div className='inputs'>  */}
                 {listOfLocations.map((value, index) => (
                     <div key={value.id} onChange={()=>setIsEditing(true)}>
